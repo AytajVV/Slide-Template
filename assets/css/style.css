@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap);
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +12,59 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .container{
     background-color: white;
-    width: 800px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     border-radius: 20px;
     margin-top: 100px;
+    position: relative;
+    display: flex;
+    
+}
+.img{
+    background-color: #F86400;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 45px;
+    right: 40px;
+}
+.content{
+    width: 300px;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 20px;
+    
+}
+.date{
+    color:gray;
+    font-family: 'Noto Sans', sans-serif;    
+
+}
+.header{
+    color: black;
+    margin-top: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+}
+.text{
+    color:grey;
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+.btn{
+    margin-top:20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url(../img/6289f46b136f6168de9fd58a_orange-gradient.png);
+    background-size: cover;
+    border: hidden;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
 }
